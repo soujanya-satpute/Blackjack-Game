@@ -1,0 +1,51 @@
+.container-1 {
+  margin: 10px;
+  border: 1px solid black;
+  text-align: center;
+}
+
+.flex-box-container-1 {
+  display: flex;
+  padding: 10px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  border: 1px solid black;
+}
+.flex-box-container-1 div {
+  display: flex;
+  padding: 10px;
+}
+.background-game {
+  background: rgb(1, 65, 1);
+  color: white;
+}
+.board {
+  height: 350px;
+}
+.boardgame {
+  border: 1px solid white;
+  padding: 10px;
+  flex: 1;
+  text-align: center;
+  width: 100%;
+}
+.background-game img {
+  width: 25%;
+  padding: 10px;
+}
+
+table,
+td,
+th {
+  padding: 5px;
+  border: 1px solid black;
+}
+.flex-box-container img {
+  margin: 10px;
+  width: 20px;
+  height: 20px;
+}
+
+.flex-box-container-1 img:hover {
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}

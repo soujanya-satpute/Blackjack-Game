@@ -1,0 +1,56 @@
+Confirm button placing order all that process is done by asnchronus js or ajax
+Variables:
+    Content changes
+    Asking input 
+
+Whenever we refresh everything is set to be nulled there are methods to save local states too 
+
+prompt funtion return string alert return type is void
+
+variable philosphy we just declare it as var so we can change it Whenever we want at differnt data type and that will be okaay too.
+Assigning variable to new variable makes the copy of the variable and if yo change the value of first variable it will not change value of new variable.
+
+if you declare anything in js it is attached to window object but that can be conflicated when you have multiple variables and large code 
+so that is where concept of IIFE comes in picture : Imeadiatly invoked funtions defination
+if we did not put var keyword on age it is gonna attached to global window and defeting purpose of whole IIFE 
+Just in time compliation
+
+block variable by let, const(not allowed to change)
+and funtion variable by var
+
+let vs var 
+let don't attach to window it is attached to declarative envirnment
+
+block scoping and how varible changes 
+primitive datatypes immuatable
+string 
+    number
+        all are floating point number 
+        max_safe_int and min_safe int 
+        infinity 
+        -infinity
+        NAn
+        precendance
+        Arthmatic operator:
+            -
+            +
+            /
+            *
+            %
+        slice = slice+1 => slice++
+        slice--
+        slice *= 5
+        slice+=5
+        slice -=20
+        slice %=34
+        parseInt parseFloat
+        
+        Number instance method
+    boolean
+    null defined null
+    undefined not yet defined 
+objects
+    object: collection of key value pairs
+    array 
+    funtion
+    
